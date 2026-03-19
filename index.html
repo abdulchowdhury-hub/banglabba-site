@@ -1,0 +1,1528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
+
+<!-- Perplexity Computer Attribution — SEO Meta Tags -->
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<meta property="og:see_also" content="https://www.perplexity.ai/computer">
+<link rel="author" href="https://www.perplexity.ai/computer">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bangla Bazar Business Association — Parkchester, Bronx</title>
+<meta name="description" content="Bangla Bazar Business Association is a community organization supporting Bangladeshi businesses and culture in the Parkchester area of the Bronx, New York.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Bangla Bazar Business Association — Parkchester, Bronx">
+<meta property="og:description" content="Supporting Bangladeshi businesses and culture in the Parkchester area of the Bronx.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://banglabba.org">
+<meta property="og:image" content="./assets/parkchester-storefronts.jpg">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Bangla Bazar Business Association",
+  "alternateName": "BBBA",
+  "url": "https://banglabba.org",
+  "email": "info@banglabba.org",
+  "telephone": "(917) 442-9002",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2098 Starling Ave",
+    "addressLocality": "Bronx",
+    "addressRegion": "NY",
+    "postalCode": "10462",
+    "addressCountry": "US"
+  },
+  "foundingDate": "2011",
+  "description": "Promoting healthy relationships between businesses and consumers in the North Bronx, and promoting Bangla Bazar / Greater Starling businesses to the New York community.",
+  "sameAs": [
+    "https://www.facebook.com/p/Bangla-Bazar-Business-Association-100064519666581/"
+  ],
+  "creator": {
+    "@type": "SoftwareApplication",
+    "name": "Perplexity Computer",
+    "url": "https://www.perplexity.ai/computer"
+  }
+}
+</script>
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="./assets/bbba-favicon.png">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Work+Sans:wght@300..700&display=swap" rel="stylesheet">
+
+<!-- Styles -->
+<link rel="stylesheet" href="./base.css">
+<link rel="stylesheet" href="./style.css">
+
+<!-- Inline styles for new sections -->
+<style>
+/* ==========================================
+   PARKCHESTER FULL-BLEED IMAGE SECTION
+   ========================================== */
+.parkchester {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+}
+.parkchester__image-wrap {
+  position: relative;
+  width: 100%;
+  height: clamp(320px, 50vw, 500px);
+}
+.parkchester__image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.parkchester__image-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, oklch(0.15 0.02 40 / 0.75) 0%, oklch(0.15 0.02 40 / 0.15) 60%, transparent 100%);
+}
+.parkchester__text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: var(--space-8) var(--space-4);
+  max-width: var(--content-wide);
+  margin-inline: auto;
+}
+.parkchester__text .section__heading {
+  color: #faf8f4;
+}
+.parkchester__text .section__desc {
+  color: rgba(250, 248, 244, 0.85);
+}
+
+/* ==========================================
+   TIMELINE SECTION
+   ========================================== */
+.timeline {
+  background: var(--color-surface);
+}
+.timeline__list {
+  position: relative;
+  margin-top: var(--space-10);
+  padding-left: var(--space-8);
+}
+.timeline__list::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 7px;
+  width: 2px;
+  background: var(--color-divider);
+}
+.timeline__item {
+  position: relative;
+  padding-bottom: var(--space-8);
+}
+.timeline__item:last-child {
+  padding-bottom: 0;
+}
+.timeline__dot {
+  position: absolute;
+  left: calc(-1 * var(--space-8) + 1px);
+  top: 4px;
+  width: 14px;
+  height: 14px;
+  border-radius: var(--radius-full);
+  background: var(--color-primary);
+  border: 3px solid var(--color-surface);
+  box-shadow: 0 0 0 2px var(--color-primary);
+}
+.timeline__item:first-child .timeline__dot,
+.timeline__item:last-child .timeline__dot {
+  background: var(--color-accent);
+  box-shadow: 0 0 0 2px var(--color-accent);
+}
+.timeline__year {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--space-1);
+}
+.timeline__desc {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  max-width: 60ch;
+}
+@media (max-width: 768px) {
+  .timeline__list {
+    padding-left: var(--space-6);
+  }
+  .timeline__dot {
+    left: calc(-1 * var(--space-6) + 1px);
+  }
+}
+
+/* ==========================================
+   EVENTS & FAITH SECTION
+   ========================================== */
+.events-faith {
+  background: var(--color-bg);
+}
+.events-faith__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-8);
+  margin-top: var(--space-10);
+}
+.events-faith__card {
+  background: var(--color-surface);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  border: 1px solid oklch(from var(--color-text) l c h / 0.06);
+  transition: box-shadow var(--transition-interactive);
+}
+.events-faith__card:hover {
+  box-shadow: var(--shadow-md);
+}
+.events-faith__card-image {
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+}
+.events-faith__card-body {
+  padding: var(--space-6);
+}
+.events-faith__card-title {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: var(--space-3);
+}
+.events-faith__card-desc {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+@media (max-width: 768px) {
+  .events-faith__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ==========================================
+   CONTACT FOLLOW US / PHONE / MISSION
+   ========================================== */
+.contact__mission {
+  margin-top: var(--space-8);
+  padding: var(--space-6);
+  background: var(--color-surface-offset);
+  border-radius: var(--radius-lg);
+  border-left: 3px solid var(--color-primary);
+}
+.contact__mission-text {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  font-style: italic;
+}
+.contact__mission-label {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-primary);
+  margin-bottom: var(--space-2);
+}
+
+/* ==========================================
+   HALAL DINING SECTION
+   ========================================== */
+.halal-dining {
+  background: var(--color-surface);
+}
+.halal-dining__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-8);
+  margin-top: var(--space-10);
+}
+.halal-dining__card {
+  background: var(--color-bg);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  border: 1px solid oklch(from var(--color-text) l c h / 0.06);
+  transition: box-shadow var(--transition-interactive), transform var(--transition-interactive);
+}
+.halal-dining__card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+.halal-dining__card-image-wrap {
+  position: relative;
+  overflow: hidden;
+}
+.halal-dining__card-image {
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+}
+.halal-dining__halal-badge {
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-3);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  background: rgba(0, 106, 78, 0.92);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-full);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+.halal-dining__halal-badge svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.halal-dining__card-body {
+  padding: var(--space-5) var(--space-6) var(--space-6);
+}
+.halal-dining__card-title {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: var(--space-1);
+}
+.halal-dining__card-address {
+  font-size: var(--text-xs);
+  color: var(--color-accent);
+  font-weight: 500;
+  margin-bottom: var(--space-3);
+}
+.halal-dining__card-desc {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  margin-bottom: var(--space-4);
+}
+.halal-dining__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+.halal-dining__tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  background: var(--color-primary-highlight);
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-full);
+  letter-spacing: 0.02em;
+}
+@media (max-width: 768px) {
+  .halal-dining__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+}
+
+/* ==========================================
+   PHOTO STRIP
+   ========================================== */
+.photo-strip {
+  padding: 0;
+  overflow: hidden;
+}
+.photo-strip__inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+}
+.photo-strip__inner img {
+  width: 100%;
+  height: clamp(160px, 22vw, 280px);
+  object-fit: cover;
+}
+@media (max-width: 640px) {
+  .photo-strip__inner {
+    grid-template-columns: 1fr 1fr;
+  }
+  .photo-strip__inner img:last-child {
+    grid-column: 1 / -1;
+  }
+}
+
+/* ==========================================
+   PHOTO CREDITS
+   ========================================== */
+.photo-credits {
+  padding-block: var(--space-6);
+  border-top: 1px solid oklch(from var(--color-text) l c h / 0.06);
+}
+.photo-credits__text {
+  font-size: var(--text-xs);
+  color: var(--color-text-faint);
+  line-height: 1.7;
+  text-align: center;
+  max-width: 100%;
+}
+.photo-credits__text strong {
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+/* ==========================================
+   COMMUNITY ORGANIZATIONS SECTION
+   ========================================== */
+.community-orgs {
+  background: var(--color-surface);
+}
+.community-orgs__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-8);
+  margin-top: var(--space-10);
+}
+.community-orgs__card {
+  background: var(--color-bg);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  border: 1px solid oklch(from var(--color-text) l c h / 0.06);
+  transition: box-shadow var(--transition-interactive);
+}
+.community-orgs__card:hover {
+  box-shadow: var(--shadow-md);
+}
+.community-orgs__card-image {
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+}
+.community-orgs__card-body {
+  padding: var(--space-6);
+}
+.community-orgs__type-label {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-accent);
+  background: oklch(from var(--color-accent) l c h / 0.1);
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-full);
+  margin-bottom: var(--space-3);
+}
+.community-orgs__card-title {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: var(--space-2);
+}
+.community-orgs__card-address {
+  font-size: var(--text-xs);
+  color: var(--color-accent);
+  font-weight: 500;
+  margin-bottom: var(--space-3);
+}
+.community-orgs__card-desc {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  margin-bottom: var(--space-4);
+}
+.community-orgs__card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color var(--transition-interactive);
+}
+.community-orgs__card-link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.community-orgs__card-link svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+@media (max-width: 768px) {
+  .community-orgs__grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Skip Link -->
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- ==========================================
+     HEADER
+     ========================================== -->
+<header class="header" role="banner">
+  <div class="header__inner">
+    <a href="#" class="header__logo" aria-label="Bangla Bazar Business Association — Home">
+      <img class="header__logo-icon" src="./assets/bbba-logo.png" alt="BBBA Logo" width="40" height="65" aria-hidden="true">
+      <span class="header__logo-text">
+        Bangla Bazar
+        <span class="header__logo-sub">Business Association</span>
+      </span>
+    </a>
+
+    <nav class="header__nav" id="nav-menu" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#history">History</a>
+      <a href="#discover">Discover</a>
+      <a href="#halal">Community</a>
+      <a href="#community-orgs">Organizations</a>
+      <a href="#businesses">Businesses</a>
+      <a href="#register">Register</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header__actions">
+      <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ==========================================
+     HERO
+     ========================================== -->
+<section class="hero" aria-labelledby="hero-heading">
+  <img src="./assets/parkchester-storefronts.jpg" alt="Bengali storefronts and shops along Starling Avenue in Parkchester, Bronx — the heart of Bangla Bazar" class="hero__image" loading="eager" width="1600" height="1067">
+  <div class="hero__overlay" aria-hidden="true"></div>
+  <div class="hero__content">
+    <span class="hero__badge">Parkchester, Bronx · Est. 2011</span>
+    <h1 id="hero-heading" class="hero__title">Bangla Bazar</h1>
+    <p class="hero__subtitle">A vibrant hub of Bangladeshi culture, food, and business in the heart of the Bronx. Over 100 local shops serving our community.</p>
+    <div class="hero__cta-group">
+      <a href="#register" class="btn btn--primary">Join Our Association</a>
+      <a href="#discover" class="btn btn--outline">Explore Bangla Bazar</a>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================
+     MAIN CONTENT
+     ========================================== -->
+<main id="main">
+
+<!-- ABOUT -->
+<section id="about" class="section about">
+  <div class="container">
+    <div class="about__grid">
+      <div class="about__image reveal">
+        <img src="./assets/bengali-sweets-variety.jpg" alt="Traditional Bangladeshi sweets platter from Premium Sweets in Parkchester, Bronx" loading="lazy" width="1200" height="675">
+      </div>
+      <div class="about__text reveal">
+        <span class="section__label">About Us</span>
+        <h2 class="section__heading">Little Bangladesh in the Bronx</h2>
+        <p class="about__body">
+          Parkchester was completed in 1941 as the largest residential development in the country — 12,272 apartments spread across 129 acres, designed by Shreve, Lamb &amp; Harmon, the same firm behind the Empire State Building. Originally built exclusively for white families, the complex featured 171 red brick buildings, over 500,000 square feet of commercial space, a 2,000-seat movie theater, and the first Macy's branch outside of Manhattan. It was, in its time, a city within a city.
+        </p>
+        <p class="about__body">
+          Beginning in the early 1990s, Bangladeshi immigrants arrived in the Bronx through the diversity visa lottery program and steadily made Parkchester their home. By the 2000s, Bangladeshi-owned businesses on Starling Avenue had grown 500% in a single decade. In 2008, the NYC City Council officially renamed a stretch of Starling Avenue between Castle Hill Avenue and Unionport Road as "Bangla Bazaar" under Local Law 2008/48 — a recognition of the thriving commercial corridor built by the community.
+        </p>
+        <p class="about__body">
+          Today, Bangladeshis are the fastest-growing immigrant group among the top ten foreign-born groups in New York City — up 92% since 2000 — and now make up roughly 10% of Parkchester's population. The neighborhood is home to six mosques, including Parkchester Islamic Center, a former Young Israel of Parkchester synagogue repurposed in 2015. Founded in 2011, Bangla Bazar Business Association unites over 100 local merchants to strengthen businesses, advocate for the neighborhood, and promote Bangla Bazar as a destination for authentic Bangladeshi culture, food, and commerce.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PARKCHESTER — Full Bleed Image -->
+<section class="parkchester reveal" aria-label="Parkchester neighborhood photo">
+  <div class="parkchester__image-wrap">
+    <img src="./assets/starling-ave-sign.jpg" alt="Starling Avenue and Bangla Bazaar street signs at the intersection with Unionport Road in Parkchester, Bronx" loading="lazy" width="1280" height="720">
+    <div class="parkchester__image-overlay" aria-hidden="true"></div>
+    <div class="parkchester__text">
+      <h2 class="section__heading">Parkchester — A City Within a City</h2>
+      <p class="section__desc">Built in 1941 by Metropolitan Life, these 171 iconic red brick buildings once housed the largest planned residential community in America. Today, the same tree-lined avenues and commercial corridors pulse with Bengali storefronts, halal groceries, and the aromas of biriyani and chai — a living testament to immigrant reinvention.</p>
+    </div>
+  </div>
+</section>
+
+<!-- DISCOVER -->
+<section id="discover" class="section discover">
+  <div class="container">
+    <div class="reveal">
+      <span class="section__label">Discover Bangla Bazar</span>
+      <h2 class="section__heading">A Cultural Destination</h2>
+      <p class="section__desc">In 2008, the NYC City Council officially renamed this stretch of Starling Avenue as "Bangla Bazaar" — walk it today and experience the sights, sounds, and flavors of Bangladesh right here in New York City.</p>
+    </div>
+
+    <div class="discover__grid">
+      <div class="discover__card reveal">
+        <svg class="discover__card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        <h3 class="discover__card-title">Authentic Halal Cuisine</h3>
+        <p class="discover__card-desc">All restaurants in Bangla Bazar serve 100% halal food — it's the standard, not the exception. From Al Aqsa's chicken biryani and Neerob's legendary Bengali dishes (written up in The New York Times) to bakeries, sweets shops, and Halal Chinese spots, Starling Avenue is one of NYC's most authentic halal dining corridors.</p>
+      </div>
+      <div class="discover__card reveal">
+        <svg class="discover__card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+        <h3 class="discover__card-title">Local Shopping</h3>
+        <p class="discover__card-desc">Fresh groceries, seasonal produce, halal meats, fragrant spice blends, traditional clothing, gold and silver jewelry, and everyday essentials — all from Bangladeshi-owned shops and supermarkets that line Starling Avenue and the surrounding blocks.</p>
+      </div>
+      <div class="discover__card reveal">
+        <svg class="discover__card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        <h3 class="discover__card-title">Community & Culture</h3>
+        <p class="discover__card-desc">Cultural events, Chaand Raat and Eid Mela celebrations, community iftar gatherings, voter engagement drives, backpack giveaways, small business workshops, and year-round programming that bring our neighborhood together.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OUR COMMUNITY BUSINESSES -->
+<section id="halal" class="section halal-dining">
+  <div class="container">
+    <div class="reveal">
+      <span class="section__label">Meet Our Members</span>
+      <h2 class="section__heading">Our Community Businesses</h2>
+      <p class="section__desc">From halal restaurants and bakeries to pharmacies, banquet halls, and professional services — these are the businesses that make Bangla Bazar thrive. All food businesses serve 100% halal.</p>
+    </div>
+
+    <div class="halal-dining__grid">
+      <!-- Card 1: Neerob Restaurant -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/neerob-cha-alt.webp" alt="Bangladeshi doodh cha (milk tea) served in a traditional clay cup with spices" loading="lazy" width="900" height="900">
+          <span class="halal-dining__halal-badge" aria-label="Halal certified">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#006a4e"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Halal
+          </span>
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title">Neerob Restaurant &amp; Halal Chinese</h3>
+          <p class="halal-dining__card-address">2096 Starling Ave, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">A Bangla Bazar legend. Originally at 2109 Starling Ave, Neerob expanded to Bengali and Chinese cuisine — all halal. Written up in The New York Times. Catering and party hall available. Phone: (718) 918-1234.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Bengali Food</span>
+            <span class="halal-dining__tag">Halal Chinese</span>
+            <span class="halal-dining__tag">Catering</span>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- Card: Al Aqsa Restaurant -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/al-aqsa-storefront.jpg" alt="Al Aqsa Restaurant storefront on Starling Avenue in Parkchester, Bronx" loading="lazy" width="1200" height="800">
+          <span class="halal-dining__halal-badge" aria-label="Halal certified">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#006a4e"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Halal
+          </span>
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title">Al Aqsa Restaurant</h3>
+          <p class="halal-dining__card-address">2107 Starling Ave, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">One of Bangla Bazar's most popular destinations for authentic Indian and Bengali cuisine. Al Aqsa is famous for its chicken biryani, kebab platters, and full halal menu — a Starling Avenue landmark serving the community daily. Phone: (718) 904-7061.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Bengali</span>
+            <span class="halal-dining__tag">Indian</span>
+            <span class="halal-dining__tag">Biryani</span>
+            <span class="halal-dining__tag">Halal</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4: Golden Palace Banquet Hall -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/golden-palace.jpg" alt="Golden Palace Banquet Hall interior in Parkchester, Bronx" loading="lazy" width="1000" height="667">
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title">Golden Palace Banquet Hall</h3>
+          <p class="halal-dining__card-address">1451 Unionport Rd, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">The go-to venue for community celebrations, weddings, and cultural events in Parkchester. Golden Palace hosts Eid celebrations, the annual Chaad Raat Festival, and private events for the Bangladeshi community.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Banquet Hall</span>
+            <span class="halal-dining__tag">Events</span>
+            <span class="halal-dining__tag">Weddings</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5: Starling Pharmacy -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/starling-pharmacy.jpg" alt="Starling Pharmacy interior on Starling Avenue, Parkchester" loading="lazy" width="1000" height="667">
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title">Starling Pharmacy</h3>
+          <p class="halal-dining__card-address">2098 Starling Ave, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">A trusted community pharmacy right on Starling Avenue. Offering prescription services, health consultations, and everyday essentials — serving the Bangla Bazar neighborhood with care and accessibility.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Pharmacy</span>
+            <span class="halal-dining__tag">Health</span>
+            <span class="halal-dining__tag">Community</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6: Mannan Bakery & Grill -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/mannan-samosa.webp" alt="Fresh samosas and Indian pastries from Mannan Bakery in Parkchester, Bronx" loading="lazy" width="1200" height="1200">
+          <span class="halal-dining__halal-badge" aria-label="Halal certified">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#006a4e"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Halal
+          </span>
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title">Mannan Bakery &amp; Grill</h3>
+          <p class="halal-dining__card-address">Bronx, NY (Parkchester area)</p>
+          <p class="halal-dining__card-desc">Freshly baked Bangladeshi breads, pastries, and grilled specialties. A neighborhood bakery serving the community with traditional flavors and warm hospitality.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Bakery</span>
+            <span class="halal-dining__tag">Grill</span>
+            <span class="halal-dining__tag">Bengali Sweets</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 7: Five Star Kacchi Biryani House -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/five-star-dining.jpg" alt="Five Star Kacchi Biryani House dining interior in Parkchester, Bronx" loading="lazy" width="1824" height="1216">
+          <span class="halal-dining__halal-badge" aria-label="Halal certified">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#006a4e"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Halal
+          </span>
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title">Five Star Kacchi Biryani House</h3>
+          <p class="halal-dining__card-address">Bronx, NY (Parkchester area)</p>
+          <p class="halal-dining__card-desc">Authentic kacchi biryani and traditional Bangladeshi cuisine. Halal certified. Full catering for weddings, parties, and community events.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Kacchi Biryani</span>
+            <span class="halal-dining__tag">Catering</span>
+            <span class="halal-dining__tag">Halal</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8: Hasan Halal Chinese -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/hasan-chinese.jpg" alt="Hasan Halal Chinese storefront and food in Parkchester, Bronx" loading="lazy" width="1200" height="1200">
+          <span class="halal-dining__halal-badge" aria-label="Halal certified">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#006a4e"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Halal
+          </span>
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title">Hasan Halal Chinese</h3>
+          <p class="halal-dining__card-address">2062 McGraw Ave, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">Halal Chinese food in the heart of Parkchester. Serving chicken and beef sizzling platters, fried rice, lo mein, and more — all halal. Open daily 11am to 11pm.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Halal Chinese</span>
+            <span class="halal-dining__tag">Sizzling</span>
+            <span class="halal-dining__tag">Delivery</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 9: Poshora Market -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/poshora-market.jpg" alt="Poshora Market storefront on Starling Avenue, Parkchester, Bronx" loading="lazy" width="1500" height="2000">
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title">Poshora Market</h3>
+          <p class="halal-dining__card-address">2148 Starling Ave, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">A trusted grocery market on Starling Avenue. Fresh produce, Bangladeshi spices, imported goods, and household essentials for the community.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Grocery</span>
+            <span class="halal-dining__tag">Spices</span>
+            <span class="halal-dining__tag">Produce</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 10: Adda -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/five-star-biryani.jpg" alt="Biryani dish from Adda restaurant in Parkchester, Bronx" loading="lazy" width="1824" height="1824">
+          <span class="halal-dining__halal-badge" aria-label="Halal certified">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#006a4e"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Halal
+          </span>
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title">Adda</h3>
+          <p class="halal-dining__card-address">Parkchester, Bronx, NY</p>
+          <p class="halal-dining__card-desc">A local gathering spot in Bangla Bazar serving Bengali favorites. The name 'Adda' means a relaxed hangout — and that's exactly what this spot offers to the community.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Bengali Food</span>
+            <span class="halal-dining__tag">Community Spot</span>
+            <span class="halal-dining__tag">Halal</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 11: Premium Sweets & Restaurant -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/bengali-sweets-variety.jpg" alt="Traditional Bangladeshi sweets including sandesh, mishti, and colorful Bengali confections" loading="lazy" width="1200" height="675">
+          <span class="halal-dining__halal-badge" aria-label="Halal certified">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#006a4e"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Halal
+          </span>
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title">Premium Sweets &amp; Restaurant</h3>
+          <p class="halal-dining__card-address">2104 Starling Ave, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">A beloved Parkchester destination for traditional Bangladeshi sweets and full meals. Premium Sweets serves mishti doi, rosogolla, sandesh, and a full halal dinner menu — a taste of Dhaka right on Starling Avenue.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Sweets</span>
+            <span class="halal-dining__tag">Bengali Restaurant</span>
+            <span class="halal-dining__tag">Halal</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 12: Ittadi Bazaar Halal Food Market -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/ittadi-bazaar.jpg" alt="Ittadi Bazaar Halal Food Market grand opening on Starling Avenue, Parkchester, Bronx" loading="lazy" width="1280" height="720">
+          <span class="halal-dining__halal-badge" aria-label="Halal certified">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#006a4e"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Halal
+          </span>
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title">Ittadi Bazaar Halal Food Market</h3>
+          <p class="halal-dining__card-address">2111 Starling Ave, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">A bustling grocery store offering fresh produce, halal meats, and imported pantry staples from Bangladesh, India, and Pakistan. Ittadi is a one-stop shop for authentic South Asian groceries in Parkchester. Phone: (347) 621-2214.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Grocery</span>
+            <span class="halal-dining__tag">Halal Meats</span>
+            <span class="halal-dining__tag">South Asian</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 13: Tania Beauty Salon -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/tania-beauty.jpg" alt="Tania Beauty Salon storefront on Starling Avenue, Parkchester, Bronx" loading="lazy" width="533" height="400">
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title">Tania Beauty Salon</h3>
+          <p class="halal-dining__card-address">2099 Starling Ave, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">A community beauty salon offering threading, waxing, facials, hair styling, bridal makeup, and henna tattoos at affordable prices. Tania Beauty is a go-to spot for the women of Bangla Bazar.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Beauty Salon</span>
+            <span class="halal-dining__tag">Henna &amp; Bridal</span>
+            <span class="halal-dining__tag">Women-Owned</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 14: Asian Driving School (Lincoln) -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/asian-driving-school.jpg" alt="Asian Driving School storefront on Starling Avenue, Parkchester, Bronx" loading="lazy" width="600" height="342">
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title">Lincoln Driving School</h3>
+          <p class="halal-dining__card-address">2099 Starling Ave, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">Also known as Asian Driving School, this Bangladeshi-owned driving school provides lessons, 5-hour pre-licensing courses, and road test preparation. Serving the Parkchester community with flexible scheduling.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Driving School</span>
+            <span class="halal-dining__tag">Pre-Licensing</span>
+            <span class="halal-dining__tag">Community Service</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 15: Padma Salon -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/padma-salon.jpg" alt="Padma Hair Dresser &amp; Beauty Salon near Starling Avenue in Parkchester, Bronx" loading="lazy" width="300" height="400">
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title">Padma Salon</h3>
+          <p class="halal-dining__card-address">1464 Unionport Rd, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">A popular beauty destination in the Parkchester area offering hair styling, cuts, coloring, threading, waxing, and bridal services. Padma Salon serves the diverse community of Bangla Bazar and surrounding neighborhoods.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Beauty Salon</span>
+            <span class="halal-dining__tag">Hair Styling</span>
+            <span class="halal-dining__tag">Bridal</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 16: Spice Up Sweets & Restaurant -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/spice-up-sweets.jpg" alt="Spice Up Sweets &amp; Restaurant storefront near Parkchester, Bronx" loading="lazy" width="695" height="321">
+          <span class="halal-dining__halal-badge" aria-label="Halal certified">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#006a4e"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Halal
+          </span>
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title">Spice Up Sweets &amp; Restaurant</h3>
+          <p class="halal-dining__card-address">2160 Westchester Ave, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">Serving Bangladeshi and Indian cuisine just steps from Bangla Bazar. Known for their butter chicken, biryani, and an extensive menu of sweets and savory dishes. Delivery available. Phone: (718) 822-8777.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Bengali &amp; Indian</span>
+            <span class="halal-dining__tag">Sweets</span>
+            <span class="halal-dining__tag">Halal</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 17: Bangla Town Supermarket -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/bangla-town-supermarket.jpg" alt="Bangla Town Supermarket on Starling Avenue, Parkchester, Bronx" loading="lazy" width="348" height="348">
+          <span class="halal-dining__halal-badge" aria-label="Halal certified">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#006a4e"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Halal
+          </span>
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title">Bangla Town Supermarket</h3>
+          <p class="halal-dining__card-address">2161 Starling Ave, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">A Bangladeshi supermarket on Starling Avenue stocking fresh halal meats, produce, spices, and pantry essentials imported from Bangladesh, India, and Pakistan. A go-to grocery stop for the community.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Supermarket</span>
+            <span class="halal-dining__tag">Halal Meats</span>
+            <span class="halal-dining__tag">Groceries</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 18: McGraw Pharmacy -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/mcgraw-pharmacy-new.jpg" alt="McGraw Pharmacy storefront on McGraw Avenue in Parkchester, Bronx" loading="lazy" width="800" height="1066">
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title">McGraw Pharmacy</h3>
+          <p class="halal-dining__card-address">2048 McGraw Ave, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">A trusted neighborhood pharmacy in Parkchester providing prescription medications, over-the-counter products, and health consultations. Conveniently located on McGraw Avenue, serving the Bangla Bazar community. Phone: (718) 684-4512.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Pharmacy</span>
+            <span class="halal-dining__tag">Health</span>
+            <span class="halal-dining__tag">Prescriptions</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 19: Parkchester Family Pharmacy -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/parkchester-family-pharmacy-new.jpg" alt="Parkchester Family Pharmacy on Unionport Road in Parkchester, Bronx" loading="lazy" width="1200" height="800">
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title">Parkchester Family Pharmacy</h3>
+          <p class="halal-dining__card-address">1445 Unionport Rd, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">Serving the community since 2006, Parkchester Family Pharmacy offers prescription medications, free delivery, surgical supplies, and personalized health care. A neighborhood staple near Bangla Bazar. Phone: (347) 851-2577.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Pharmacy</span>
+            <span class="halal-dining__tag">Free Delivery</span>
+            <span class="halal-dining__tag">Family Health</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PHOTO STRIP -->
+<section class="photo-strip reveal" aria-label="Bangla Bazar photo gallery">
+  <div class="photo-strip__inner">
+    <img src="./assets/bengali-sweets-variety.jpg" alt="Bangladeshi sweets from Premium Sweets on Starling Avenue, Parkchester, Bronx" loading="lazy" width="1200" height="675">
+    <img src="./assets/ittadi-bazaar.jpg" alt="Ittadi Bazaar Halal Food Market on Starling Avenue, Parkchester, Bronx" loading="lazy" width="1280" height="720">
+    <img src="./assets/tania-beauty.jpg" alt="Tania Beauty Salon on Starling Avenue, Parkchester, Bronx" loading="lazy" width="533" height="400">
+    <img src="./assets/asian-driving-school.jpg" alt="Asian Driving School on Starling Avenue, Parkchester, Bronx" loading="lazy" width="600" height="342">
+  </div>
+</section>
+
+<!-- HISTORY / TIMELINE -->
+<section id="history" class="section timeline reveal">
+  <div class="container">
+    <span class="section__label">Our History</span>
+    <h2 class="section__heading">A Timeline of Bangla Bazar</h2>
+    <p class="section__desc">From a mid-century planned community to one of New York City's most vibrant immigrant enclaves — the story of Parkchester and Bangla Bazar.</p>
+
+    <div class="timeline__list">
+      <div class="timeline__item reveal">
+        <div class="timeline__dot"></div>
+        <div class="timeline__year">1941</div>
+        <p class="timeline__desc">Parkchester completed by Metropolitan Life — 12,272 apartments across 129 acres, the largest residential development in America. Designed by Shreve, Lamb &amp; Harmon with 171 red brick buildings, a 2,000-seat theater, and NYC's first Macy's branch.</p>
+      </div>
+      <div class="timeline__item reveal">
+        <div class="timeline__dot"></div>
+        <div class="timeline__year">Early 1990s</div>
+        <p class="timeline__desc">First wave of Bangladeshi immigrants arrives in the Bronx via the diversity visa lottery program, settling around Parkchester and establishing small businesses along Starling Avenue.</p>
+      </div>
+      <div class="timeline__item reveal">
+        <div class="timeline__dot"></div>
+        <div class="timeline__year">2003</div>
+        <p class="timeline__desc">Bangladesh Society of NY moves its base from Queens to Parkchester, becoming the Bangladesh Society of the Bronx — a signal of the community's westward shift and growing roots.</p>
+      </div>
+      <div class="timeline__item reveal">
+        <div class="timeline__dot"></div>
+        <div class="timeline__year">2008</div>
+        <p class="timeline__desc">NYC City Council officially renames a stretch of Starling Avenue between Castle Hill Avenue and Unionport Road as "Bangla Bazaar" under Local Law 2008/48, recognizing the thriving Bangladeshi commercial corridor.</p>
+      </div>
+      <div class="timeline__item reveal">
+        <div class="timeline__dot"></div>
+        <div class="timeline__year">2011</div>
+        <p class="timeline__desc">Bangla Bazar Business Association founded to unite local merchants, advocate for neighborhood improvements, and promote the commercial district as a cultural destination.</p>
+      </div>
+      <div class="timeline__item reveal">
+        <div class="timeline__dot"></div>
+        <div class="timeline__year">2015</div>
+        <p class="timeline__desc">Young Israel of Parkchester synagogue is repurposed as Parkchester Islamic Center — a striking example of the neighborhood's evolving identity and interfaith transition.</p>
+      </div>
+      <div class="timeline__item reveal">
+        <div class="timeline__dot"></div>
+        <div class="timeline__year">Today</div>
+        <p class="timeline__desc">Over 100 Bangladeshi-owned businesses, six mosques, and a population that is roughly 10% Bangladeshi. Bangla Bazar is one of the most vibrant South Asian commercial corridors in the United States.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMMUNITY — Full Bleed Image -->
+<section class="community reveal" aria-label="Community photo">
+  <div class="community__image-wrap">
+    <img src="./assets/bengali-storefront.jpg" alt="Bengali storefront on Starling Avenue, Parkchester — one of over 100 Bangladeshi-owned businesses in Bangla Bazar" loading="lazy" width="1200" height="902">
+    <div class="community__image-overlay" aria-hidden="true"></div>
+    <div class="community__text">
+      <h2 class="section__heading">Stronger Together</h2>
+      <p class="section__desc">Led by local business owners and community leaders, Bangla Bazar Business Association represents the collective voice of Bangladeshi entrepreneurs in Parkchester.</p>
+    </div>
+  </div>
+</section>
+
+<!-- COMMUNITY EVENTS & FAITH -->
+<section class="section events-faith reveal">
+  <div class="container">
+    <span class="section__label">Community Life</span>
+    <h2 class="section__heading">Events &amp; Faith</h2>
+    <p class="section__desc">Bangla Bazar is more than a shopping district — it is a gathering place for celebration, worship, and community service throughout the year.</p>
+
+    <div class="events-faith__grid">
+      <div class="events-faith__card reveal">
+        <img class="events-faith__card-image" src="./assets/banglabba-chaandraat.png" alt="Chaand Raat celebration at Bangla Bazar with community members, festive lights, henna art, and street vendors during the night before Eid" loading="lazy" width="1024" height="640">
+        <div class="events-faith__card-body">
+          <h3 class="events-faith__card-title">Chaand Raat &amp; Events</h3>
+          <p class="events-faith__card-desc">Every year, the community comes alive for the annual Chaand Raat Festival — the "Night of the Moon" before Eid — with late-night shopping, henna, street food, and live performances. Beyond Chaand Raat, Bangla Bazar hosts Eid Mela celebrations, community backpack giveaways for students, small business workshops, and iftar gatherings during Ramadan that bring hundreds of families together on Starling Avenue.</p>
+        </div>
+      </div>
+      <div class="events-faith__card reveal">
+        <img class="events-faith__card-image" src="./assets/eid-prayer-indoor.png" alt="Eid prayer congregation inside a mosque" loading="lazy" width="1000" height="750">
+        <div class="events-faith__card-body">
+          <h3 class="events-faith__card-title">Faith &amp; Worship</h3>
+          <p class="events-faith__card-desc">Six mosques now serve the greater Parkchester area. Banglabazar Jame Masjid, located at 1351 Odell Street, has been serving the community since 2008 and is one of the largest Muslim gathering places in the Starling Avenue area. Jame Masjid holds five daily prayers and two Jummah services on Fridays. Parkchester Islamic Center, housed in the former Young Israel of Parkchester synagogue, was repurposed in 2015 — a quiet testament to the neighborhood's changing demographics and shared commitment to faith.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMMUNITY ORGANIZATIONS -->
+<section id="community-orgs" class="section community-orgs reveal">
+  <div class="container">
+    <span class="section__label">Giving Back</span>
+    <h2 class="section__heading">Community Organizations</h2>
+    <p class="section__desc">Bangla Bazar is home to organizations that advocate for, educate, and empower the Bangladeshi community in the Bronx and beyond.</p>
+
+    <div class="community-orgs__grid">
+      <!-- BAFA -->
+      <div class="community-orgs__card reveal">
+        <img class="community-orgs__card-image" src="./assets/bafa-arts.jpg" alt="BAFA — Bangladesh Academy of Fine Arts performance" loading="lazy" width="1280" height="720">
+        <div class="community-orgs__card-body">
+          <span class="community-orgs__type-label">Nonprofit &middot; Arts &amp; Culture</span>
+          <h3 class="community-orgs__card-title">BAFA &mdash; Bangladesh Academy of Fine Arts</h3>
+          <p class="community-orgs__card-desc">A women-led, Bronx-based nonprofit (501c3) founded in 2011. BAFA preserves South Asian heritage through dance, music, visual arts, and Bengali literacy programs. Featured on HBO Max's 'Take Out with Lisa Ling.' Open enrollment year-round for students of all ages.</p>
+          <a href="https://bafausa.org" target="_blank" rel="noopener noreferrer" class="community-orgs__card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            bafausa.org
+          </a>
+        </div>
+      </div>
+
+      <!-- DRUM -->
+      <div class="community-orgs__card reveal">
+        <img class="community-orgs__card-image" src="./assets/drum-community.png" alt="DRUM — Desis Rising Up &amp; Moving community banner" loading="lazy" width="8533" height="2846">
+        <div class="community-orgs__card-body">
+          <span class="community-orgs__type-label">Nonprofit &middot; Social Justice</span>
+          <h3 class="community-orgs__card-title">DRUM &mdash; Desis Rising Up &amp; Moving</h3>
+          <p class="community-orgs__card-desc">Founded in 2000, DRUM builds the power of South Asian and Indo-Caribbean low-wage immigrant workers, youth, and families in NYC. With chapters across six neighborhoods, DRUM fights for economic justice, civil rights, and immigrant rights.</p>
+          <a href="https://drumnyc.org" target="_blank" rel="noopener noreferrer" class="community-orgs__card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            drumnyc.org
+          </a>
+        </div>
+      </div>
+
+      <!-- Banglabazar Jame Masjid -->
+      <div class="community-orgs__card reveal">
+        <img class="community-orgs__card-image" src="./assets/eid-prayer-indoor.png" alt="Eid celebration prayer inside Banglabazar Jame Masjid" loading="lazy" width="1000" height="750">
+        <div class="community-orgs__card-body">
+          <span class="community-orgs__type-label">Mosque &middot; Faith</span>
+          <h3 class="community-orgs__card-title">Banglabazar Jame Masjid</h3>
+          <p class="community-orgs__card-address">1351 Odell St, Bronx, NY 10462</p>
+          <p class="community-orgs__card-desc">Serving the community since 2008, Banglabazar Jame Masjid is one of the largest gathering places for Muslim prayers in the Starling Avenue area. Located at 1351 Odell Street, the mosque holds five daily prayers and two Jummah prayers on Fridays. During Eid, worshippers overflow onto the surrounding streets.</p>
+          <a href="https://banglabazarjamemasjid.org" target="_blank" rel="noopener noreferrer" class="community-orgs__card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            banglabazarjamemasjid.org
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BUSINESSES -->
+<section id="businesses" class="section businesses">
+  <div class="container">
+    <div class="reveal">
+      <span class="section__label">Our Businesses</span>
+      <h2 class="section__heading">What You'll Find at Bangla Bazar</h2>
+      <p class="section__desc">Over 100 Bangladeshi-owned businesses line Starling Avenue and the surrounding blocks, offering everything from fresh produce to professional services.</p>
+    </div>
+
+    <div class="businesses__grid">
+      <div class="businesses__card reveal">
+        <div class="businesses__icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+        </div>
+        <div class="businesses__info">
+          <div class="businesses__name">Halal Restaurants</div>
+          <div class="businesses__type">Al Aqsa, Neerob, Five Star Kacchi Biryani, Spice Up, Premium Sweets, Mannan Bakery</div>
+        </div>
+      </div>
+      <div class="businesses__card reveal">
+        <div class="businesses__icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+        </div>
+        <div class="businesses__info">
+          <div class="businesses__name">Sweets & Bakery</div>
+          <div class="businesses__type">Mishti doi, rosogolla, traditional pastries</div>
+        </div>
+      </div>
+      <div class="businesses__card reveal">
+        <div class="businesses__icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+        </div>
+        <div class="businesses__info">
+          <div class="businesses__name">Groceries & Produce</div>
+          <div class="businesses__type">Fresh vegetables, spices, halal meats</div>
+        </div>
+      </div>
+      <div class="businesses__card reveal">
+        <div class="businesses__icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+        </div>
+        <div class="businesses__info">
+          <div class="businesses__name">Fashion & Jewelry</div>
+          <div class="businesses__type">Saris, salwar kameez, gold jewelry</div>
+        </div>
+      </div>
+      <div class="businesses__card reveal">
+        <div class="businesses__icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+        </div>
+        <div class="businesses__info">
+          <div class="businesses__name">Pharmacies & Health</div>
+          <div class="businesses__type">Health services, pharmacies, clinics</div>
+        </div>
+      </div>
+      <div class="businesses__card reveal">
+        <div class="businesses__icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
+        <div class="businesses__info">
+          <div class="businesses__name">Services & Tutoring</div>
+          <div class="businesses__type">Tax, legal, tech, education services</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REGISTRATION -->
+<section id="register" class="section registration">
+  <div class="container">
+    <div class="registration__inner">
+      <div class="registration__info reveal">
+        <span class="section__label">Member Registration</span>
+        <h2 class="section__heading">Join Bangla Bazar Business Association</h2>
+        <p class="section__desc">Bangladeshi business owners and professionals serving the Parkchester, Bronx area are welcome to register. Membership is free and helps strengthen our community voice.</p>
+
+        <ul class="registration__benefits" role="list">
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            Connect with other Bangladeshi business owners in your area
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            Have a stronger, united voice with local officials and community partners
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            Be included in promotions, events, and marketing for Bangla Bazar
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            Share information, resources, and support to help your business grow
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            Get help navigating permits, regulations, and business resources
+          </li>
+        </ul>
+      </div>
+
+      <div class="reveal">
+        <form class="registration__form" id="registration-form" novalidate>
+          <h3>Register Your Business</h3>
+
+          <div class="form-group">
+            <label for="business-name">Business Name</label>
+            <input type="text" id="business-name" name="business_name" required placeholder="Enter your business name">
+          </div>
+
+          <div class="form-group">
+            <label for="business-address">Business Address</label>
+            <input type="text" id="business-address" name="business_address" required placeholder="Street, Bronx, NY">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contact-name">Contact Name</label>
+              <input type="text" id="contact-name" name="contact_name" required placeholder="Owner or manager">
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required placeholder="you@example.com">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone (Optional)</label>
+              <input type="tel" id="phone" name="phone" placeholder="(718) 000-0000">
+            </div>
+            <div class="form-group">
+              <label for="business-type">Type of Business</label>
+              <select id="business-type" name="business_type" required>
+                <option value="" disabled selected>Select category</option>
+                <option value="restaurant">Restaurant</option>
+                <option value="grocery">Grocery / Supermarket</option>
+                <option value="convenience">Convenience / Deli Store</option>
+                <option value="clothing">Clothing / Fashion</option>
+                <option value="jewelry">Jewelry</option>
+                <option value="pharmacy">Pharmacy / Health</option>
+                <option value="salon">Salon / Beauty</option>
+                <option value="services">Professional Services</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="website">Business Website (Optional)</label>
+            <input type="url" id="website" name="website" placeholder="https://www.yourbusiness.com">
+          </div>
+
+          <button type="submit" class="btn btn--accent form-submit">Register Now</button>
+          <p class="form-note">We will contact you with membership details and upcoming meetings.</p>
+        </form>
+
+        <div class="form-success" id="form-success">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <h3>Registration Submitted</h3>
+          <p>Thank you for registering with Bangla Bazar Business Association. We will contact you at the email provided with membership details and information about upcoming meetings.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+  <div class="container">
+    <div class="reveal">
+      <span class="section__label">Get in Touch</span>
+      <h2 class="section__heading">Contact Us</h2>
+      <p class="section__desc">Have questions about Bangla Bazar or our association? We'd love to hear from you.</p>
+    </div>
+
+    <div class="contact__grid">
+      <div class="reveal">
+        <div class="contact__item">
+          <div class="contact__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div>
+            <div class="contact__label">Email</div>
+            <div class="contact__value"><a href="mailto:info@banglabba.org" target="_blank" rel="noopener noreferrer">info@banglabba.org</a></div>
+          </div>
+        </div>
+
+        <div class="contact__item">
+          <div class="contact__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          </div>
+          <div>
+            <div class="contact__label">Phone</div>
+            <div class="contact__value"><a href="tel:+19174429002">(917) 442-9002</a></div>
+          </div>
+        </div>
+
+        <div class="contact__item">
+          <div class="contact__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <div class="contact__label">Location</div>
+            <div class="contact__value">2098 Starling Ave<br>Bronx, NY 10462</div>
+          </div>
+        </div>
+
+        <div class="contact__item">
+          <div class="contact__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <div>
+            <div class="contact__label">Community</div>
+            <div class="contact__value">Parkchester / Bangla Bazar<br>Starling Avenue, Bronx</div>
+          </div>
+        </div>
+
+        <div class="contact__item">
+          <div class="contact__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </div>
+          <div>
+            <div class="contact__label">Follow Us</div>
+            <div class="contact__value"><a href="https://www.facebook.com/p/Bangla-Bazar-Business-Association-100064519666581/" target="_blank" rel="noopener noreferrer">Bangla Bazar Business Association on Facebook</a></div>
+          </div>
+        </div>
+
+        <div class="contact__mission">
+          <div class="contact__mission-label">Our Mission</div>
+          <p class="contact__mission-text">"Promoting healthy relationships between businesses and consumers in the North Bronx, and promoting Bangla Bazar / Greater Starling businesses to the New York community."</p>
+        </div>
+      </div>
+
+      <div class="contact__map reveal">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.8!2d-73.8622!3d40.8361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f474e2b06ed1%3A0x2d2c6d5e1e8e2b8a!2sStarling%20Ave%2C%20Bronx%2C%20NY%2010462!5e0!3m2!1sen!2sus!4v1679900000000!5m2!1sen!2sus" 
+          allowfullscreen 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Map showing Starling Avenue, Bronx, NY — Bangla Bazar location">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- PHOTO CREDITS -->
+<section class="photo-credits" aria-label="Photo credits">
+  <div class="container">
+    <p class="photo-credits__text">
+      <strong>Photo Credits:</strong>
+      Dave Cook/Flickr (Bangla Bazar Food Market) &middot;
+      The Juggernaut (Parkchester storefronts, Bengali storefront) &middot;
+      Hafsa Quraishi (Little Bangla street view) &middot;
+      News 12 The Bronx (Bangla Bazaar feature) &middot;
+      TripAdvisor (Neerob Restaurant, Hasan Halal Chinese) &middot;
+      WhereYouEat.com (Mannan Bakery, Spice Up) &middot;
+      Golden Palace NYC (Golden Palace Banquet Hall) &middot;
+      Starling Pharmacy (Starling Pharmacy) &middot;
+      Five Star Kacchi Biryani House (Five Star dining, biryani) &middot;
+      Loc8NearMe (Poshora Market) &middot;
+      Bronx Council on the Arts / YouTube (BAFA) &middot;
+      DRUM (DRUM community) &middot;
+      Wheree (Banglabazar Jame Masjid) &middot;
+      TripAdvisor (Premium Sweets &amp; Restaurant) &middot;
+      YouTube (Ittadi Bazaar) &middot;
+      Yelp (Tania Beauty Salon, Asian Driving School, Padma Salon, Bangla Town Supermarket) &middot;
+      WhereYouEat.com (Spice Up Sweets &amp; Restaurant) &middot;
+      BanglaBBa (Banglabazar Jame Masjid, Starling Ave street sign) &middot;
+      Yelp/MapQuest (McGraw Pharmacy, Parkchester Family Pharmacy)
+    </p>
+  </div>
+</section>
+
+<!-- ==========================================
+     FOOTER
+     ========================================== -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__inner">
+      <p class="footer__copy">&copy; 2026 Bangla Bazar Business Association &middot; Parkchester, Bronx, NY</p>
+      <div class="footer__links">
+        <a href="mailto:info@banglabba.org" target="_blank" rel="noopener noreferrer">info@banglabba.org</a>
+        <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ==========================================
+     SCRIPTS
+     ========================================== -->
+<script>
+// Dark mode toggle
+(function(){
+  const t = document.querySelector('[data-theme-toggle]');
+  const r = document.documentElement;
+  let d = matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light';
+  r.setAttribute('data-theme', d);
+  t && t.addEventListener('click', () => {
+    d = d === 'dark' ? 'light' : 'dark';
+    r.setAttribute('data-theme', d);
+    t.setAttribute('aria-label', 'Switch to ' + (d === 'dark' ? 'light' : 'dark') + ' mode');
+    t.innerHTML = d === 'dark'
+      ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+      : '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+  });
+})();
+
+// Mobile menu toggle
+(function(){
+  const btn = document.querySelector('.mobile-menu-btn');
+  const nav = document.getElementById('nav-menu');
+  if (!btn || !nav) return;
+  btn.addEventListener('click', () => {
+    const isOpen = nav.classList.toggle('is-open');
+    btn.setAttribute('aria-expanded', isOpen);
+  });
+  // Close on nav link click
+  nav.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      nav.classList.remove('is-open');
+      btn.setAttribute('aria-expanded', 'false');
+    });
+  });
+})();
+
+// Sticky header shadow
+(function(){
+  const header = document.querySelector('.header');
+  if (!header) return;
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('header--scrolled', window.scrollY > 10);
+  }, { passive: true });
+})();
+
+// Scroll reveal
+(function(){
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+})();
+
+// Registration form
+(function(){
+  const form = document.getElementById('registration-form');
+  const success = document.getElementById('form-success');
+  if (!form || !success) return;
+  
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    // Basic validation
+    const required = form.querySelectorAll('[required]');
+    let valid = true;
+    required.forEach(input => {
+      if (!input.value.trim()) {
+        valid = false;
+        input.style.borderColor = '#c0562b';
+      } else {
+        input.style.borderColor = '';
+      }
+    });
+    
+    // Email validation
+    const email = form.querySelector('#email');
+    if (email && email.value && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)) {
+      valid = false;
+      email.style.borderColor = '#c0562b';
+    }
+    
+    if (!valid) return;
+    
+    // Send form data via email
+    const data = new FormData(form);
+    const body = Array.from(data.entries())
+      .map(([k, v]) => k.replace(/_/g, ' ') + ': ' + v)
+      .join('%0A');
+    
+    window.open('mailto:info@banglabba.org?subject=BBBA Member Registration&body=' + body, '_blank');
+    
+    // Show success
+    form.style.display = 'none';
+    success.classList.add('is-visible');
+  });
+})();
+</script>
+
+</body>
+</html>
