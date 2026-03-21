@@ -367,6 +367,19 @@
   font-weight: 600;
   color: var(--color-text);
   margin-bottom: var(--space-1);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.halal-dining__card-logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  object-fit: contain;
+  background: #fff;
+  padding: 2px;
+  flex-shrink: 0;
+  border: 1px solid var(--color-border);
 }
 .halal-dining__card-address {
   font-size: var(--text-xs);
@@ -556,6 +569,7 @@
       <a href="#about">About</a>
       <a href="#history">History</a>
       <a href="#discover">Discover</a>
+      <a href="#health">Health</a>
       <a href="#halal">Community</a>
       <a href="#community-orgs">Organizations</a>
       <a href="#businesses">Businesses</a>
@@ -666,6 +680,143 @@
   </div>
 </section>
 
+<!-- HEALTH & WELLNESS -->
+<section id="health" class="section halal-dining">
+  <div class="container">
+    <div class="reveal">
+      <span class="section__label">Health &amp; Wellness</span>
+      <h2 class="section__heading">Healthcare in Our Community</h2>
+      <p class="section__desc">From multi-specialty clinics and pharmacies to home care agencies, Bangla Bazar is supported by healthcare providers who understand and serve our community.</p>
+    </div>
+
+    <div class="halal-dining__grid">
+      <!-- Starling Diagnostics LLC -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/starling-diagnostics-clinic.jpg" alt="Starling Diagnostics multi-specialty clinic interior with modern medical equipment in Parkchester, Bronx" loading="lazy" width="2560" height="1389">
+          <span class="halal-dining__halal-badge" style="background:#0e4a6e" aria-label="Multi-specialty clinic">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#0e4a6e"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Clinic
+          </span>
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title"><img src="./assets/logo-starling-diagnostics.jpg" alt="Starling Diagnostics LLC logo" class="halal-dining__card-logo">Starling Diagnostics LLC</h3>
+          <p class="halal-dining__card-address">1480 East Ave, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">A full-service multi-specialty clinic bringing world-class medicine to the Bronx under one roof. US-trained physicians cover primary care, women&rsquo;s health, cardiology, orthopedics, dermatology, endocrinology, and podiatry &mdash; supported by a full in-house imaging suite with MRI, CT scans, ultrasound, and 3D mammography. Open 7 days a week with multi-language support. Phone: (718) 319-1610. <a href="https://starlingdiagnostics.com" target="_blank" rel="noopener">starlingdiagnostics.com</a></p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Multi-Specialty</span>
+            <span class="halal-dining__tag">Imaging</span>
+            <span class="halal-dining__tag">Primary Care</span>
+            <span class="halal-dining__tag">Women&rsquo;s Health</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Starling Pharmacy -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/starling-pharmacy-facebook.jpg" alt="Starling Pharmacy interior showing well-stocked aisles, pharmacy counter, and Halal Vitamins section in Parkchester, Bronx" loading="lazy" width="960" height="640">
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title"><img src="./assets/logo-starling-pharmacy.jpg" alt="Starling Pharmacy logo" class="halal-dining__card-logo">Starling Pharmacy</h3>
+          <p class="halal-dining__card-address">2098 Starling Ave, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">A trusted community pharmacy right on Starling Avenue, serving since 2013. Offering prescription services, free delivery, health consultations, and everyday essentials. Phone: (718) 684-6880. <a href="https://starlingpharmacy.com" target="_blank" rel="noopener">starlingpharmacy.com</a></p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Pharmacy</span>
+            <span class="halal-dining__tag">Free Delivery</span>
+            <span class="halal-dining__tag">Community</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- McGraw Pharmacy -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/mcgraw-pharmacy-sign.jpg" alt="McGraw Pharmacy storefront with full signage showing Medicaid, Medicare, Bill Payments, Notary services and Bengali text on McGraw Avenue, Parkchester, Bronx" loading="lazy" width="1600" height="2133">
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title"><img src="./assets/logo-mcgraw-pharmacy.jpg" alt="McGraw Pharmacy logo" class="halal-dining__card-logo">McGraw Pharmacy</h3>
+          <p class="halal-dining__card-address">2048 McGraw Ave, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">A trusted neighborhood pharmacy in Parkchester providing prescription medications, over-the-counter products, and health consultations. Conveniently located on McGraw Avenue, serving the Bangla Bazar community. Phone: (718) 684-4512.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Pharmacy</span>
+            <span class="halal-dining__tag">Health</span>
+            <span class="halal-dining__tag">Medicaid</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Parkchester Family Pharmacy -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/parkchester-family-pharmacy-sign.jpg" alt="Parkchester Family Pharmacy &amp; Surgical Inc storefront on Unionport Road showing full signage with Beauty, Prescription, and Surgical sections in Parkchester, Bronx" loading="lazy" width="1600" height="1067">
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title"><img src="./assets/logo-parkchester-pharmacy.jpg" alt="Parkchester Family Pharmacy logo" class="halal-dining__card-logo">Parkchester Family Pharmacy</h3>
+          <p class="halal-dining__card-address">1500 Unionport Rd, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">Serving the community since 2006, Parkchester Family Pharmacy offers prescription medications, free delivery, surgical supplies, and personalized health care. A neighborhood staple near Bangla Bazar. Phone: (347) 851-2688.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Pharmacy</span>
+            <span class="halal-dining__tag">Surgical Supplies</span>
+            <span class="halal-dining__tag">Family Health</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dada Home Care -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/dada-homecare.jpg" alt="Dada Home Care office on Westchester Avenue, Parkchester, Bronx" loading="lazy" width="1000" height="922">
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title"><img src="./assets/logo-dada-home-care.jpg" alt="Dada Home Care logo" class="halal-dining__card-logo">Dada Home Care</h3>
+          <p class="halal-dining__card-address">2162 Westchester Ave, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">A Medicaid-approved home care agency offering the CDPAP program, allowing patients to hire family or friends as paid caregivers. Serving the Parkchester community with compassionate, personalized in-home care. Phone: (718) 537-3232. <a href="https://dadahomecare.com" target="_blank" rel="noopener">dadahomecare.com</a></p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Home Care</span>
+            <span class="halal-dining__tag">CDPAP</span>
+            <span class="halal-dining__tag">Medicaid</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Marks Home Care -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/dynamic-tax-team.jpg" alt="Marks Home Care professional care team" loading="lazy" width="400" height="211">
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title">Marks Home Care</h3>
+          <p class="halal-dining__card-address">721 E Tremont Ave, Bronx, NY 10457</p>
+          <p class="halal-dining__card-desc">A home care agency providing compassionate, personalized in-home care services across New York. Connecting families with reliable caregivers for daily assistance, personal care, and companionship. Phone: (718) 713-0005. <a href="https://markshhc.com" target="_blank" rel="noopener">markshhc.com</a></p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Home Care</span>
+            <span class="halal-dining__tag">Caregiving</span>
+            <span class="halal-dining__tag">Health Services</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bari Home Care -->
+      <div class="halal-dining__card reveal">
+        <div class="halal-dining__card-image-wrap">
+          <img class="halal-dining__card-image" src="./assets/bari-homecare.jpg" alt="Bari Home Care office on Starling Avenue, Parkchester, Bronx" loading="lazy" width="754" height="556">
+        </div>
+        <div class="halal-dining__card-body">
+          <h3 class="halal-dining__card-title">Bari Home Care</h3>
+          <p class="halal-dining__card-address">2113 Starling Ave, Suite 201, Bronx, NY 10462</p>
+          <p class="halal-dining__card-desc">Founded in 2017, Bari Home Care provides short- and long-term supportive services including companionship, personal care, meal preparation, housekeeping, and transportation across NYC boroughs. Located in the heart of Bangla Bazar. Phone: (718) 319-1000.</p>
+          <div class="halal-dining__tags">
+            <span class="halal-dining__tag">Home Care</span>
+            <span class="halal-dining__tag">Personal Care</span>
+            <span class="halal-dining__tag">Companionship</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- OUR COMMUNITY BUSINESSES -->
 <section id="halal" class="section halal-dining">
   <div class="container">
@@ -709,7 +860,7 @@
           </span>
         </div>
         <div class="halal-dining__card-body">
-          <h3 class="halal-dining__card-title">Al Aqsa Restaurant</h3>
+          <h3 class="halal-dining__card-title"><img src="./assets/logo-al-aqsa.jpg" alt="Al Aqsa Restaurant logo" class="halal-dining__card-logo">Al Aqsa Restaurant</h3>
           <p class="halal-dining__card-address">2107 Starling Ave, Bronx, NY 10462</p>
           <p class="halal-dining__card-desc">One of Bangla Bazar's most popular destinations for authentic Indian and Bengali cuisine. Al Aqsa is famous for its chicken biryani, kebab platters, and full halal menu — a Starling Avenue landmark serving the community daily. Phone: (718) 904-7061. <a href="https://bronx.alaqsarestaurant.com" target="_blank" rel="noopener">alaqsarestaurant.com</a></p>
           <div class="halal-dining__tags">
@@ -727,30 +878,13 @@
           <img class="halal-dining__card-image" src="./assets/golden-palace.jpg" alt="Golden Palace Banquet Hall interior in Parkchester, Bronx" loading="lazy" width="1000" height="667">
         </div>
         <div class="halal-dining__card-body">
-          <h3 class="halal-dining__card-title">Golden Palace Banquet Hall</h3>
+          <h3 class="halal-dining__card-title"><img src="./assets/logo-golden-palace.jpg" alt="Golden Palace Banquet Hall logo" class="halal-dining__card-logo">Golden Palace Banquet Hall</h3>
           <p class="halal-dining__card-address">1451 Unionport Rd, Bronx, NY 10462</p>
           <p class="halal-dining__card-desc">The go-to venue for community celebrations, weddings, and cultural events in Parkchester. Golden Palace hosts Eid celebrations, the annual Chaad Raat Festival, and private events for the Bangladeshi community. Phone: (718) 822-0090.</p>
           <div class="halal-dining__tags">
             <span class="halal-dining__tag">Banquet Hall</span>
             <span class="halal-dining__tag">Events</span>
             <span class="halal-dining__tag">Weddings</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card 5: Starling Pharmacy -->
-      <div class="halal-dining__card reveal">
-        <div class="halal-dining__card-image-wrap">
-          <img class="halal-dining__card-image" src="./assets/starling-pharmacy-facebook.jpg" alt="Starling Pharmacy interior showing well-stocked aisles, pharmacy counter, and Halal Vitamins section in Parkchester, Bronx" loading="lazy" width="960" height="640">
-        </div>
-        <div class="halal-dining__card-body">
-          <h3 class="halal-dining__card-title">Starling Pharmacy</h3>
-          <p class="halal-dining__card-address">2098 Starling Ave, Bronx, NY 10462</p>
-          <p class="halal-dining__card-desc">A trusted community pharmacy right on Starling Avenue, serving since 2013. Offering prescription services, free delivery, health consultations, and everyday essentials. Phone: (718) 684-6880. <a href="https://starlingpharmacy.com" target="_blank" rel="noopener">starlingpharmacy.com</a></p>
-          <div class="halal-dining__tags">
-            <span class="halal-dining__tag">Pharmacy</span>
-            <span class="halal-dining__tag">Health</span>
-            <span class="halal-dining__tag">Community</span>
           </div>
         </div>
       </div>
@@ -765,7 +899,7 @@
           </span>
         </div>
         <div class="halal-dining__card-body">
-          <h3 class="halal-dining__card-title">Mannan Bakery &amp; Grill</h3>
+          <h3 class="halal-dining__card-title"><img src="./assets/logo-mannan-bakery.jpg" alt="Mannan Bakery &amp; Grill logo" class="halal-dining__card-logo">Mannan Bakery &amp; Grill</h3>
           <p class="halal-dining__card-address">Bronx, NY (Parkchester area)</p>
           <p class="halal-dining__card-desc">Freshly baked Bangladeshi breads, pastries, and grilled specialties. A neighborhood bakery serving the community with traditional flavors and warm hospitality.</p>
           <div class="halal-dining__tags">
@@ -786,7 +920,7 @@
           </span>
         </div>
         <div class="halal-dining__card-body">
-          <h3 class="halal-dining__card-title">Five Star Kacchi Biryani House</h3>
+          <h3 class="halal-dining__card-title"><img src="./assets/logo-five-star.jpg" alt="Five Star Kacchi Biryani House logo" class="halal-dining__card-logo">Five Star Kacchi Biryani House</h3>
           <p class="halal-dining__card-address">Bronx, NY (Parkchester area)</p>
           <p class="halal-dining__card-desc">Authentic kacchi biryani and traditional Bangladeshi cuisine. Halal certified. Full catering for weddings, parties, and community events.</p>
           <div class="halal-dining__tags">
@@ -807,7 +941,7 @@
           </span>
         </div>
         <div class="halal-dining__card-body">
-          <h3 class="halal-dining__card-title">Hasan Halal Chinese</h3>
+          <h3 class="halal-dining__card-title"><img src="./assets/logo-hasan-supermarket.jpg" alt="Hasan Halal Chinese logo" class="halal-dining__card-logo">Hasan Halal Chinese</h3>
           <p class="halal-dining__card-address">2062 McGraw Ave, Bronx, NY 10462</p>
           <p class="halal-dining__card-desc">Halal Chinese food in the heart of Parkchester. Serving chicken and beef sizzling platters, fried rice, lo mein, and more — all halal. Open daily 11am to 11pm.</p>
           <div class="halal-dining__tags">
@@ -845,7 +979,7 @@
           </span>
         </div>
         <div class="halal-dining__card-body">
-          <h3 class="halal-dining__card-title">Adda</h3>
+          <h3 class="halal-dining__card-title"><img src="./assets/logo-adda.jpg" alt="Adda logo" class="halal-dining__card-logo">Adda</h3>
           <p class="halal-dining__card-address">Parkchester, Bronx, NY</p>
           <p class="halal-dining__card-desc">A local gathering spot in Bangla Bazar serving Bengali favorites. The name 'Adda' means a relaxed hangout — and that's exactly what this spot offers to the community.</p>
           <div class="halal-dining__tags">
@@ -866,7 +1000,7 @@
           </span>
         </div>
         <div class="halal-dining__card-body">
-          <h3 class="halal-dining__card-title">Premium Sweets &amp; Restaurant</h3>
+          <h3 class="halal-dining__card-title"><img src="./assets/logo-premium-sweets.jpg" alt="Premium Sweets &amp; Restaurant logo" class="halal-dining__card-logo">Premium Sweets &amp; Restaurant</h3>
           <p class="halal-dining__card-address">2104 Starling Ave, Bronx, NY 10462</p>
           <p class="halal-dining__card-desc">A beloved Parkchester destination for traditional Bangladeshi sweets and full meals. Premium Sweets serves mishti doi, rosogolla, sandesh, and a full halal dinner menu — a taste of Dhaka right on Starling Avenue.</p>
           <div class="halal-dining__tags">
@@ -887,7 +1021,7 @@
           </span>
         </div>
         <div class="halal-dining__card-body">
-          <h3 class="halal-dining__card-title">Ittadi Bazaar Halal Food Market</h3>
+          <h3 class="halal-dining__card-title"><img src="./assets/logo-ittadi.jpg" alt="Ittadi Bazaar Halal Food Market logo" class="halal-dining__card-logo">Ittadi Bazaar Halal Food Market</h3>
           <p class="halal-dining__card-address">2111 Starling Ave, Bronx, NY 10462</p>
           <p class="halal-dining__card-desc">A bustling grocery store offering fresh produce, halal meats, and imported pantry staples from Bangladesh, India, and Pakistan. Ittadi is a one-stop shop for authentic South Asian groceries in Parkchester. Phone: (347) 621-2214.</p>
           <div class="halal-dining__tags">
@@ -959,7 +1093,7 @@
           </span>
         </div>
         <div class="halal-dining__card-body">
-          <h3 class="halal-dining__card-title">Spice Up Sweets &amp; Restaurant</h3>
+          <h3 class="halal-dining__card-title"><img src="./assets/logo-spice-up.jpg" alt="Spice Up Sweets &amp; Restaurant logo" class="halal-dining__card-logo">Spice Up Sweets &amp; Restaurant</h3>
           <p class="halal-dining__card-address">2160 Westchester Ave, Bronx, NY 10462</p>
           <p class="halal-dining__card-desc">Serving Bangladeshi and Indian cuisine just steps from Bangla Bazar. Known for their butter chicken, biryani, and an extensive menu of sweets and savory dishes. Delivery available. Phone: (718) 822-8777.</p>
           <div class="halal-dining__tags">
@@ -991,42 +1125,6 @@
         </div>
       </div>
 
-      <!-- Card 18: McGraw Pharmacy -->
-      <div class="halal-dining__card reveal">
-        <div class="halal-dining__card-image-wrap">
-          <img class="halal-dining__card-image" src="./assets/mcgraw-pharmacy-sign.jpg" alt="McGraw Pharmacy storefront with full signage showing Medicaid, Medicare, Bill Payments, Notary services and Bengali text on McGraw Avenue, Parkchester, Bronx" loading="lazy" width="1600" height="2133">
-        </div>
-        <div class="halal-dining__card-body">
-          <h3 class="halal-dining__card-title">McGraw Pharmacy</h3>
-          <p class="halal-dining__card-address">2048 McGraw Ave, Bronx, NY 10462</p>
-          <p class="halal-dining__card-desc">A trusted neighborhood pharmacy in Parkchester providing prescription medications, over-the-counter products, and health consultations. Conveniently located on McGraw Avenue, serving the Bangla Bazar community. Phone: (718) 684-4512.</p>
-          <div class="halal-dining__tags">
-            <span class="halal-dining__tag">Pharmacy</span>
-            <span class="halal-dining__tag">Health</span>
-            <span class="halal-dining__tag">Prescriptions</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card 19: Parkchester Family Pharmacy -->
-      <div class="halal-dining__card reveal">
-        <div class="halal-dining__card-image-wrap">
-          <img class="halal-dining__card-image" src="./assets/parkchester-family-pharmacy-sign.jpg" alt="Parkchester Family Pharmacy & Surgical Inc storefront on Unionport Road showing full signage with Beauty, Prescription, and Surgical sections in Parkchester, Bronx" loading="lazy" width="1600" height="1067">
-        </div>
-        <div class="halal-dining__card-body">
-          <h3 class="halal-dining__card-title">Parkchester Family Pharmacy</h3>
-          <p class="halal-dining__card-address">1445 Unionport Rd, Bronx, NY 10462</p>
-          <p class="halal-dining__card-desc">Serving the community since 2006, Parkchester Family Pharmacy offers prescription medications, free delivery, surgical supplies, and personalized health care. A neighborhood staple near Bangla Bazar. Phone: (347) 851-2688.</p>
-          <div class="halal-dining__tags">
-            <span class="halal-dining__tag">Pharmacy</span>
-            <span class="halal-dining__tag">Free Delivery</span>
-            <span class="halal-dining__tag">Family Health</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- ====== PROFESSIONAL SERVICES ====== -->
-
       <!-- Card 20: Dynamic Tax & Accounting Services -->
       <div class="halal-dining__card reveal">
         <div class="halal-dining__card-image-wrap">
@@ -1037,7 +1135,7 @@
           </span>
         </div>
         <div class="halal-dining__card-body">
-          <h3 class="halal-dining__card-title">Dynamic Tax &amp; Accounting Services</h3>
+          <h3 class="halal-dining__card-title"><img src="./assets/logo-dynamic-tax.jpg" alt="Dynamic Tax &amp; Accounting Services logo" class="halal-dining__card-logo">Dynamic Tax &amp; Accounting Services</h3>
           <p class="halal-dining__card-address">2044 McGraw Ave, Bronx, NY 10462</p>
           <p class="halal-dining__card-desc">A full-service accounting firm licensed in New York with over 25 years of experience. Offering tax preparation, bookkeeping, payroll, business consulting, and financial planning for individuals and small businesses. Affordable and focused on the community. Phone: (646) 295-3811. <a href="https://www.dynamicsrv.com" target="_blank" rel="noopener">dynamicsrv.com</a></p>
           <div class="halal-dining__tags">
@@ -1058,7 +1156,7 @@
           </span>
         </div>
         <div class="halal-dining__card-body">
-          <h3 class="halal-dining__card-title">Ahad &amp; Co CPA</h3>
+          <h3 class="halal-dining__card-title"><img src="./assets/logo-ahad-co.jpg" alt="Ahad &amp; Co CPA logo" class="halal-dining__card-logo">Ahad &amp; Co CPA</h3>
           <p class="halal-dining__card-address">2153 Westchester Ave, Suite 200, Bronx, NY 10462</p>
           <p class="halal-dining__card-desc">A boutique CPA firm offering premium tax preparation, bookkeeping, payroll processing, financial reporting, and business consulting. Trusted by individuals and small businesses across Parkchester and the Bronx. Phone: (929) 371-9915. <a href="https://ahadandco.com" target="_blank" rel="noopener">ahadandco.com</a></p>
           <div class="halal-dining__tags">
@@ -1079,7 +1177,7 @@
           </span>
         </div>
         <div class="halal-dining__card-body">
-          <h3 class="halal-dining__card-title">Zakir CPA, PLLC</h3>
+          <h3 class="halal-dining__card-title"><img src="./assets/logo-zakir-cpa.jpg" alt="Zakir CPA, PLLC logo" class="halal-dining__card-logo">Zakir CPA, PLLC</h3>
           <p class="halal-dining__card-address">2152b Westchester Ave, Bronx, NY 10462</p>
           <p class="halal-dining__card-desc">A client-centered accounting firm providing high-quality accounting, tax services, and financial management solutions to small businesses and individuals. Known for innovative tax-saving strategies and personalized service. Phone: (929) 207-1516. <a href="https://zakircpa.com" target="_blank" rel="noopener">zakircpa.com</a></p>
           <div class="halal-dining__tags">
@@ -1132,69 +1230,6 @@
         </div>
       </div>
       <!-- ====== HOME CARE SERVICES ====== -->
-
-      <!-- Card 25: Dada Home Care -->
-      <div class="halal-dining__card reveal">
-        <div class="halal-dining__card-image-wrap">
-          <img class="halal-dining__card-image" src="./assets/dada-homecare.jpg" alt="Dada Home Care office on Westchester Avenue, Parkchester, Bronx" loading="lazy" width="1000" height="922">
-          <span class="halal-dining__halal-badge" style="background:#1a3a5c" aria-label="Professional services">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#1a3a5c"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            Pro Services
-          </span>
-        </div>
-        <div class="halal-dining__card-body">
-          <h3 class="halal-dining__card-title">Dada Home Care</h3>
-          <p class="halal-dining__card-address">2162 Westchester Ave, Bronx, NY 10462</p>
-          <p class="halal-dining__card-desc">A Medicaid-approved home care agency offering the CDPAP program, allowing patients to hire family or friends as paid caregivers. Serving the Parkchester community with compassionate, personalized in-home care. Phone: (718) 537-3232. <a href="https://dadahomecare.com" target="_blank" rel="noopener">dadahomecare.com</a></p>
-          <div class="halal-dining__tags">
-            <span class="halal-dining__tag">Home Care</span>
-            <span class="halal-dining__tag">CDPAP</span>
-            <span class="halal-dining__tag">Medicaid</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card 26: Marks Home Care -->
-      <div class="halal-dining__card reveal">
-        <div class="halal-dining__card-image-wrap">
-          <img class="halal-dining__card-image" src="./assets/dynamic-tax-team.jpg" alt="Marks Home Care professional care team" loading="lazy" width="400" height="211">
-          <span class="halal-dining__halal-badge" style="background:#1a3a5c" aria-label="Professional services">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#1a3a5c"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            Pro Services
-          </span>
-        </div>
-        <div class="halal-dining__card-body">
-          <h3 class="halal-dining__card-title">Marks Home Care</h3>
-          <p class="halal-dining__card-address">721 E Tremont Ave, Bronx, NY 10457</p>
-          <p class="halal-dining__card-desc">A home care agency providing compassionate, personalized in-home care services across New York. Connecting families with reliable caregivers for daily assistance, personal care, and companionship. Phone: (718) 713-0005. <a href="https://markshhc.com" target="_blank" rel="noopener">markshhc.com</a></p>
-          <div class="halal-dining__tags">
-            <span class="halal-dining__tag">Home Care</span>
-            <span class="halal-dining__tag">Caregiving</span>
-            <span class="halal-dining__tag">Health Services</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card 27: Bari Home Care -->
-      <div class="halal-dining__card reveal">
-        <div class="halal-dining__card-image-wrap">
-          <img class="halal-dining__card-image" src="./assets/bari-homecare.jpg" alt="Bari Home Care office on Starling Avenue, Parkchester, Bronx" loading="lazy" width="754" height="556">
-          <span class="halal-dining__halal-badge" style="background:#1a3a5c" aria-label="Professional services">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#1a3a5c"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            Pro Services
-          </span>
-        </div>
-        <div class="halal-dining__card-body">
-          <h3 class="halal-dining__card-title">Bari Home Care</h3>
-          <p class="halal-dining__card-address">2113 Starling Ave, Suite 201, Bronx, NY 10462</p>
-          <p class="halal-dining__card-desc">Founded in 2017, Bari Home Care provides short- and long-term supportive services including companionship, personal care, meal preparation, housekeeping, and transportation across NYC boroughs. Located in the heart of Bangla Bazar. Phone: (718) 319-1000.</p>
-          <div class="halal-dining__tags">
-            <span class="halal-dining__tag">Home Care</span>
-            <span class="halal-dining__tag">Personal Care</span>
-            <span class="halal-dining__tag">Companionship</span>
-          </div>
-        </div>
-      </div>
 
       <!-- ====== CLOTHING & FASHION ====== -->
 
